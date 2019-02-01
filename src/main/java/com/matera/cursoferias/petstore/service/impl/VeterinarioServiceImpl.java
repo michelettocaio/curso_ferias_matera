@@ -70,7 +70,7 @@ public class VeterinarioServiceImpl implements VeterinarioService{
 		VeterinarioResponseDto dto = new VeterinarioResponseDto();
 		dto.setNome(entidade.getNome());
 		dto.setId(entidade.getId());
-		dto.setServicos(servicoService.findByVeterinario_Id(entidade.getId()));
+//		dto.setServicos(servicoService.findByVeterinario_Id(entidade.getId()));
 
 		return dto;
 	}
